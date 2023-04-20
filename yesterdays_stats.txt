@@ -1,0 +1,171 @@
+            PLAYER_NAME  TEAM_CITY    MIN   REB   AST   PTS
+0         Nicolas Batum         LA  19:02   1.0   1.0   0.0
+1         Kawhi Leonard         LA  38:50   8.0   7.0  31.0
+2           Ivica Zubac         LA  29:29   6.0   0.0   8.0
+3           Eric Gordon         LA  32:20   2.0   2.0  12.0
+4     Russell Westbrook         LA  36:06   5.0   5.0  28.0
+5          Terance Mann         LA  25:37   2.0   0.0  10.0
+6         Norman Powell         LA  27:60   4.0   2.0  12.0
+7         Mason Plumlee         LA  13:36   2.0   0.0   2.0
+8          Bones Hyland         LA  14:06   2.0   0.0   6.0
+9    Brandon Boston Jr.         LA   0:58   0.0   0.0   0.0
+10          Amir Coffey         LA   0:58   0.0   0.0   0.0
+11        Jason Preston         LA   0:58   0.0   0.0   0.0
+12     Robert Covington         LA   None   NaN   NaN   NaN
+13    Marcus Morris Sr.         LA   None   NaN   NaN   NaN
+14         Torrey Craig    Phoenix  31:38   3.0   2.0  17.0
+15         Kevin Durant    Phoenix  44:26   6.0   5.0  25.0
+16        Deandre Ayton    Phoenix  31:36  13.0   0.0  14.0
+17         Devin Booker    Phoenix  44:48   1.0   9.0  38.0
+18           Chris Paul    Phoenix  37:39   4.0   8.0  16.0
+19      Bismack Biyombo    Phoenix  14:33   5.0   2.0   6.0
+20        Landry Shamet    Phoenix  13:60   0.0   2.0   0.0
+21          Josh Okogie    Phoenix  15:18   3.0   2.0   7.0
+22          T.J. Warren    Phoenix   2:09   0.0   0.0   0.0
+23           Damion Lee    Phoenix   3:12   0.0   0.0   0.0
+24        Ish Wainright    Phoenix   0:41   0.0   0.0   0.0
+25        Darius Bazley    Phoenix   None   NaN   NaN   NaN
+26         Jock Landale    Phoenix   None   NaN   NaN   NaN
+27        Terrence Ross    Phoenix   None   NaN   NaN   NaN
+0       De'Andre Hunter    Atlanta  38:21  12.0   3.0  18.0
+1          John Collins    Atlanta  29:33   6.0   1.0   5.0
+2          Clint Capela    Atlanta  21:57   7.0   0.0   4.0
+3       Dejounte Murray    Atlanta  39:56   6.0   6.0  29.0
+4            Trae Young    Atlanta  33:50   3.0   6.0  24.0
+5     Bogdan Bogdanovic    Atlanta  33:01   2.0   4.0  18.0
+6        Onyeka Okongwu    Atlanta  23:47   9.0   1.0   8.0
+7            Saddiq Bey    Atlanta  14:50   1.0   0.0   0.0
+8         Jalen Johnson    Atlanta   4:45   3.0   0.0   0.0
+9        Bruno Fernando    Atlanta   None   NaN   NaN   NaN
+10           AJ Griffin    Atlanta   None   NaN   NaN   NaN
+11        Aaron Holiday    Atlanta   None   NaN   NaN   NaN
+12           Vit Krejci    Atlanta   None   NaN   NaN   NaN
+13        Tyrese Martin    Atlanta   None   NaN   NaN   NaN
+14     Garrison Mathews    Atlanta   None   NaN   NaN   NaN
+15         Jaylen Brown     Boston  35:57   3.0   2.0  18.0
+16         Jayson Tatum     Boston  39:31  10.0   6.0  29.0
+17           Al Horford     Boston  32:02   4.0   3.0   8.0
+18        Derrick White     Boston  33:45   7.0   2.0  26.0
+19         Marcus Smart     Boston  32:09   5.0   6.0  14.0
+20  Robert Williams III     Boston  22:53   5.0   1.0   8.0
+21      Malcolm Brogdon     Boston  28:04   7.0   8.0  13.0
+22           Sam Hauser     Boston  14:50   3.0   0.0   3.0
+23          Luke Kornet     Boston   0:49   0.0   0.0   0.0
+24    Justin Champagnie     Boston   None   NaN   NaN   NaN
+25        Blake Griffin     Boston   None   NaN   NaN   NaN
+26         Mike Muscala     Boston   None   NaN   NaN   NaN
+27     Payton Pritchard     Boston   None   NaN   NaN   NaN
+28       Grant Williams     Boston   None   NaN   NaN   NaN
+0            RJ Barrett   New York  33:22   3.0   0.0  14.0
+1         Julius Randle   New York  33:01   8.0   1.0  22.0
+2     Mitchell Robinson   New York  21:15   5.0   0.0   2.0
+3        Quentin Grimes   New York  21:55   3.0   2.0   4.0
+4         Jalen Brunson   New York  36:18   5.0   6.0  20.0
+5            Obi Toppin   New York  14:59   0.0   1.0   7.0
+6             Josh Hart   New York  26:47   4.0   0.0   5.0
+7    Isaiah Hartenstein   New York  26:45   7.0   5.0   4.0
+8     Immanuel Quickley   New York  23:06   1.0   1.0  12.0
+9         Miles McBride   New York   2:33   0.0   0.0   0.0
+10        Evan Fournier   New York   None   NaN   NaN   NaN
+11      DaQuan Jeffries   New York   None   NaN   NaN   NaN
+12         Derrick Rose   New York   None   NaN   NaN   NaN
+13         Jericho Sims   New York   None   NaN   NaN   NaN
+14          Isaac Okoro  Cleveland   2:45   1.0   0.0   0.0
+15          Evan Mobley  Cleveland  39:10  13.0   0.0  13.0
+16        Jarrett Allen  Cleveland  34:50  10.0   3.0   9.0
+17     Donovan Mitchell  Cleveland  38:55   2.0  13.0  17.0
+18       Darius Garland  Cleveland  36:21   3.0   7.0  32.0
+19           Cedi Osman  Cleveland  22:45   6.0   0.0   5.0
+20         Caris LeVert  Cleveland  39:51   4.0   3.0  24.0
+21          Danny Green  Cleveland  19:48   4.0   0.0   3.0
+22            Raul Neto  Cleveland   3:13   0.0   0.0   0.0
+23          Robin Lopez  Cleveland   2:22   0.0   0.0   4.0
+24          Sam Merrill  Cleveland   None   NaN   NaN   NaN
+25          Ricky Rubio  Cleveland   None   NaN   NaN   NaN
+26        Lamar Stevens  Cleveland   None   NaN   NaN   NaN
+27            Dean Wade  Cleveland   None   NaN   NaN   NaN
+0            RJ Barrett   New York  33:22   3.0   0.0  14.0
+1         Julius Randle   New York  33:01   8.0   1.0  22.0
+2     Mitchell Robinson   New York  21:15   5.0   0.0   2.0
+3        Quentin Grimes   New York  21:55   3.0   2.0   4.0
+4         Jalen Brunson   New York  36:18   5.0   6.0  20.0
+5            Obi Toppin   New York  14:59   0.0   1.0   7.0
+6             Josh Hart   New York  26:47   4.0   0.0   5.0
+7    Isaiah Hartenstein   New York  26:45   7.0   5.0   4.0
+8     Immanuel Quickley   New York  23:06   1.0   1.0  12.0
+9         Miles McBride   New York   2:33   0.0   0.0   0.0
+10        Evan Fournier   New York   None   NaN   NaN   NaN
+11      DaQuan Jeffries   New York   None   NaN   NaN   NaN
+12         Derrick Rose   New York   None   NaN   NaN   NaN
+13         Jericho Sims   New York   None   NaN   NaN   NaN
+14          Isaac Okoro  Cleveland   2:45   1.0   0.0   0.0
+15          Evan Mobley  Cleveland  39:10  13.0   0.0  13.0
+16        Jarrett Allen  Cleveland  34:50  10.0   3.0   9.0
+17     Donovan Mitchell  Cleveland  38:55   2.0  13.0  17.0
+18       Darius Garland  Cleveland  36:21   3.0   7.0  32.0
+19           Cedi Osman  Cleveland  22:45   6.0   0.0   5.0
+20         Caris LeVert  Cleveland  39:51   4.0   3.0  24.0
+21          Danny Green  Cleveland  19:48   4.0   0.0   3.0
+22            Raul Neto  Cleveland   3:13   0.0   0.0   0.0
+23          Robin Lopez  Cleveland   2:22   0.0   0.0   4.0
+24          Sam Merrill  Cleveland   None   NaN   NaN   NaN
+25          Ricky Rubio  Cleveland   None   NaN   NaN   NaN
+26        Lamar Stevens  Cleveland   None   NaN   NaN   NaN
+27            Dean Wade  Cleveland   None   NaN   NaN   NaN
+0       De'Andre Hunter    Atlanta  38:21  12.0   3.0  18.0
+1          John Collins    Atlanta  29:33   6.0   1.0   5.0
+2          Clint Capela    Atlanta  21:57   7.0   0.0   4.0
+3       Dejounte Murray    Atlanta  39:56   6.0   6.0  29.0
+4            Trae Young    Atlanta  33:50   3.0   6.0  24.0
+5     Bogdan Bogdanovic    Atlanta  33:01   2.0   4.0  18.0
+6        Onyeka Okongwu    Atlanta  23:47   9.0   1.0   8.0
+7            Saddiq Bey    Atlanta  14:50   1.0   0.0   0.0
+8         Jalen Johnson    Atlanta   4:45   3.0   0.0   0.0
+9        Bruno Fernando    Atlanta   None   NaN   NaN   NaN
+10           AJ Griffin    Atlanta   None   NaN   NaN   NaN
+11        Aaron Holiday    Atlanta   None   NaN   NaN   NaN
+12           Vit Krejci    Atlanta   None   NaN   NaN   NaN
+13        Tyrese Martin    Atlanta   None   NaN   NaN   NaN
+14     Garrison Mathews    Atlanta   None   NaN   NaN   NaN
+15         Jaylen Brown     Boston  35:57   3.0   2.0  18.0
+16         Jayson Tatum     Boston  39:31  10.0   6.0  29.0
+17           Al Horford     Boston  32:02   4.0   3.0   8.0
+18        Derrick White     Boston  33:45   7.0   2.0  26.0
+19         Marcus Smart     Boston  32:09   5.0   6.0  14.0
+20  Robert Williams III     Boston  22:53   5.0   1.0   8.0
+21      Malcolm Brogdon     Boston  28:04   7.0   8.0  13.0
+22           Sam Hauser     Boston  14:50   3.0   0.0   3.0
+23          Luke Kornet     Boston   0:49   0.0   0.0   0.0
+24    Justin Champagnie     Boston   None   NaN   NaN   NaN
+25        Blake Griffin     Boston   None   NaN   NaN   NaN
+26         Mike Muscala     Boston   None   NaN   NaN   NaN
+27     Payton Pritchard     Boston   None   NaN   NaN   NaN
+28       Grant Williams     Boston   None   NaN   NaN   NaN
+0         Nicolas Batum         LA  19:02   1.0   1.0   0.0
+1         Kawhi Leonard         LA  38:50   8.0   7.0  31.0
+2           Ivica Zubac         LA  29:29   6.0   0.0   8.0
+3           Eric Gordon         LA  32:20   2.0   2.0  12.0
+4     Russell Westbrook         LA  36:06   5.0   5.0  28.0
+5          Terance Mann         LA  25:37   2.0   0.0  10.0
+6         Norman Powell         LA  27:60   4.0   2.0  12.0
+7         Mason Plumlee         LA  13:36   2.0   0.0   2.0
+8          Bones Hyland         LA  14:06   2.0   0.0   6.0
+9    Brandon Boston Jr.         LA   0:58   0.0   0.0   0.0
+10          Amir Coffey         LA   0:58   0.0   0.0   0.0
+11        Jason Preston         LA   0:58   0.0   0.0   0.0
+12     Robert Covington         LA   None   NaN   NaN   NaN
+13    Marcus Morris Sr.         LA   None   NaN   NaN   NaN
+14         Torrey Craig    Phoenix  31:38   3.0   2.0  17.0
+15         Kevin Durant    Phoenix  44:26   6.0   5.0  25.0
+16        Deandre Ayton    Phoenix  31:36  13.0   0.0  14.0
+17         Devin Booker    Phoenix  44:48   1.0   9.0  38.0
+18           Chris Paul    Phoenix  37:39   4.0   8.0  16.0
+19      Bismack Biyombo    Phoenix  14:33   5.0   2.0   6.0
+20        Landry Shamet    Phoenix  13:60   0.0   2.0   0.0
+21          Josh Okogie    Phoenix  15:18   3.0   2.0   7.0
+22          T.J. Warren    Phoenix   2:09   0.0   0.0   0.0
+23           Damion Lee    Phoenix   3:12   0.0   0.0   0.0
+24        Ish Wainright    Phoenix   0:41   0.0   0.0   0.0
+25        Darius Bazley    Phoenix   None   NaN   NaN   NaN
+26         Jock Landale    Phoenix   None   NaN   NaN   NaN
+27        Terrence Ross    Phoenix   None   NaN   NaN   NaN
