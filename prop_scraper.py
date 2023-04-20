@@ -13,7 +13,7 @@ class Player:
         self.props = props
 
     def __str__(self):
-        return f"** {self.name}**\n{self.props}"
+        return f"** {self.name} **\n{len(self.props)} props\n"
 
     def add_prop(self, prop):
         self.props.append(prop)
@@ -29,15 +29,15 @@ class Prop:
         self.under_cost = under[1]
 
     def __repr__(self):
-        return f"{self.name}:\n\t{self.over_line} {self.over_cost}\n\t{self.under_line} {self.under_cost}\n"
+        return f"{self.name}:\n\t{self.over_line} {self.over_cost}\t{self.under_line} {self.under_cost}\n"
 
     def __str__(self):
-        return f"{self.name}:\n\t{self.over_line} {self.over_cost}\n\t{self.under_line} {self.under_cost}\n"
+        return f"{self.name}:\n\t{self.over_line} {self.over_cost}\t{self.under_line} {self.under_cost}\n"
 
 
-if __name__ == "__main__":
+def scrape(url):
 
-    url = "https://www.bettingpros.com/nba/odds/player-props/?date=2023-04-18"
+    # "https://www.bettingpros.com/nba/odds/player-props/?date=2023-04-18"
 
     # list of the players and their props
     players = []
@@ -99,3 +99,5 @@ if __name__ == "__main__":
 
     # Close the browser instance
     browser.quit()
+
+	return players
