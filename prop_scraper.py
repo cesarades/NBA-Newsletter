@@ -68,7 +68,10 @@ def scrape_player_props(player_href, display=False):
         try:
             # Get the name of the prop
             pname = prop.find_element(By.TAG_NAME, "span").text
-            if "Over/Under" not in pname:
+            if pname not in [
+                    "Points Over/Under", "Assists Over/Under",
+                    "Rebounds Over/Under"
+            ]:
                 continue
 
             # Get the consensus lines and costs
@@ -84,7 +87,8 @@ def scrape_player_props(player_href, display=False):
 
             # Add the prop to the player
             player.add_prop(
-                Prop(pname, (lines[0], costs[0]), (lines[1], costs[1])))
+                Prop(pname.split()[0], (lines[0], costs[0]),
+                     (lines[1], costs[1])))
         except:
             continue
 
