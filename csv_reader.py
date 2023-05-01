@@ -1,7 +1,7 @@
 import csv
 
 def csv_to_dict():
-    with open('demo_picks.csv', 'r') as csvfile:
+    with open('demo_data.csv', 'r') as csvfile:
         # Create a CSV reader object
         csvreader = csv.reader(csvfile)
 
@@ -16,9 +16,9 @@ def csv_to_dict():
         for prop in rows[1:]:
             if prop[1] not in prop_dict:
                 prop_dict[prop[1]] = []
-            prop_dict[prop[1]].append((prop[2], prop[3]))
+            prop_dict[prop[1]].append((prop[3], prop[4]))
 
         return prop_dict    
 
 # Replace function input with path to input after demo
-print(csv_to_dict())
+# print(csv_to_dict())
