@@ -87,10 +87,9 @@ def scrape(url, date, display=False):
     players = []
     for href in hrefs:
         player = scrape_player_props(href + date, display=display)
-        print(player.props)
+        print(player)
         players.append(player)
 
     # Close the browser instance
     browser.quit()
-
     return players

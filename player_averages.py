@@ -25,4 +25,3 @@ def player_year_stats(name):
     res = list(map(lambda x: x / averages[6], res))
     res = [round(x, 1) for x in res]
     return res
-# print(player_year_stats("Kevin Durant"))
