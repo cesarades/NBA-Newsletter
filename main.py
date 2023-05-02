@@ -113,5 +113,10 @@ for player in bets:
     p_avg = season_averages[player]
     prompt += (player + " averaged " + str(p_avg[0]) + " points, " + str(p_avg[1]) + " rebounds, and " + str(p_avg[2]) + " assists so far this season.")
 
-prompt += "\nMake sure you do not say anything that is too big of a logical leap, use the teammates data to infer things about why things happened for my bets."
+prompt += """\nMake sure you do not say anything that is too big of a logical leap, 
+use the other teammates data to infer things about why things happened for my bets. We 
+want to understand based on the numbers why my bets hit or missed. Use their season averages to 
+give a full picture of what happened
+
+"""
 print(prompt)
