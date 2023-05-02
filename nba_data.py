@@ -34,5 +34,6 @@ def get_player_stats(date):
 
 if __name__ == "__main__":
     # input all dates this way
-    print(get_player_stats("2023-04-18"))
+    pass
+    # print(get_player_stats("2023-04-18"))
 
