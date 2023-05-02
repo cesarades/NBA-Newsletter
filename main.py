@@ -7,7 +7,6 @@ from player_averages import *
 # change back to 4/22
 # can make these be asynch as they are pinging different databases
 
-print("-----------------------------------------")
 player_stats = get_player_stats("2023-04-29")
 bets = csv_to_dict()
 # player_props = scrape("https://www.bettingpros.com/nba/odds/player-props/",
@@ -27,4 +26,93 @@ for player in bets:
 season_averages = {}
 for player in bets:
     season_averages[player] = player_year_stats(player)
+
+teams = []
+# Now get teammates stats for the game of each player we bet on
+for player in bets:
+    city = bets[player][0][0]
+    if city not in teams:
+        teams.append(city)
+        
+# convert the 'MIN' column to a datetime data type
+player_stats['MIN'] = pd.to_datetime(player_stats['MIN'], format='%M:%S').dt.time
+# dictionary of cities to list of players and their stats
+teammate_stats = {}
+for city in teams:
+    if city not in teammate_stats:
+        # select rows where the 'TEAM_CITY' column is 'Phoenix' and the 'MIN' column is greater than 5 minutes
+        df_filtered = player_stats[(player_stats['TEAM_CITY'] == city) & (player_stats['MIN'] > pd.to_datetime('00:20:00').time())]
+        # Loop over rows and put into the dictionary
+        teammate_stats[city] = {}
+        for index, row in df_filtered.iterrows():
+            teammate_stats[city][row['PLAYER_NAME']] = [row['PTS'], row['REB'], row['AST'], row['FGM'], row['FGA']]
+            
+# print(teammate_stats)
+
+
+prompt = """
+Ignore all previous instructions. I am going to give you context of what you are going to do. I will give you specific stats of NBA players and their predicted stats from before the game. Given certain criteria, you will infer why one player did better or worse than predicted lines based upon the criteria I give you.
+
+You will be given the following predicted stats of the players from before the game:
+Each player's predicted points, rebounds, and assists.
+
+You will be given averages for each player that are from their past history:
+Each player's average points per game, average rebounds per game, average assists per game, average field goals attempted per game, average field goals made per game, average time played per game, and average team shot equity.
+
+You will also be given the actual stats of each player that were recorded after the game concludes:
+Each player's points, rebounds, assists, field goals attempted, field goals made, time played
+
+Here is your given persona: You are an NBA stats reporter focused on delivering analysis on professional basketball player's stats to your audience. You are writing to a single individual whose bets I have given you. Your job is to give a report of the bets, whether they wonor lost and break down the stats of the players based on their career averages. \n
+"""
+
+# Now generate for each bet the required info
+
+bets_sentence = "I bet on "
+for player in bets:
+    for bet in bets[player]:
+        temp = player + " " + bet[2] + " " + str(69) + " " + bet[1] + ". "
+        prompt += bets_sentence + temp
+
+
+# Now start getting the actual stats of the players we bet on
+
+for player in bets:
+    points = bets_results[player][0]
+    rebounds = bets_results[player][1]
+    assists = bets_results[player][2]
+    fgm = bets_results[player][3]
+    fga = bets_results[player][4]
+    shooting_perc = round(fgm/fga,2) * 100 
+    prompt += player + " had " + str(points) + " points, " + str(rebounds) + " rebounds, and "+ str(assists) + " assists on " + str(shooting_perc)+ "% shooting.\n"
+
+
+for player in bets:
+    # Need player's city
+    prompt += "Here are the stats for " + player + "'s teammates if this helps you with your analysis:\n\n"
+    city = bets[player][0][0]
+    teammates = teammate_stats[city]
+    for mate in teammates:
+        if mate == player:
+            continue
+        
+        prompt += (mate + ": " + str(teammates[mate][0]) + " points, " + str(teammates[mate][1]) + " assists, and " + str(teammates[mate][2]) + " rebounds on " + str(teammates[mate][-2]) + " field goals made of " + str(teammates[mate][-1]) + " field goals attempted.\n\n")
+    
+    # Add players averages below this each time
+    p_avg = season_averages[player]
+    prompt += (player + " averaged " + str(p_avg[0]) + " points, " + str(p_avg[1]) + " rebounds, and " + str(p_avg[2]) + " assists so far this season.")
+
+
+print(prompt)
+
+
+# Kevin Durant this season averaged 28 points, 7 rebounds, and 5 assists. 
+
+# Here are the stats of Nikola Jokic's teammates if this helps you with your analysis:
+
+# Jamal Murray: 29 points, 8 assists, 3 rebounds
+# Michael Porter: 10 points, 10 assists, 5 rebounds
+# Aaron Gordon: 15 points, 2 assists, 10 rebounds
+
+# Nikola Jokic this season averaged 25 points, 9 assists, and 10 rebounds.
+
     
