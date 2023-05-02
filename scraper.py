@@ -43,19 +43,22 @@ def scrape_player_props(player_href, display=False):
 
             # Get the consensus lines and costs
             con = prop.find_elements(By.CLASS_NAME, "odds-offer__item")[-1]
-            lines = [
-                l.text
-                for l in con.find_elements(By.CLASS_NAME, "odds-cell__line")
-            ]
+            line = con.find_element(By.CLASS_NAME,
+                                    "odds-cell__line").text.split()[1]
             costs = [
                 c.text
                 for c in con.find_elements(By.CLASS_NAME, "odds-cell__cost")
             ]
-
+            if display:
+                print(
+                    f"{pname.split()[0]}:\t{line} (O {costs[0]}) (U {costs[1]})"
+                )
             # Add the prop to the player
             player.add_prop(
-                Prop(pname.split()[0], (lines[0], costs[0]),
-                     (lines[1], costs[1])))
+                Prop(name=pname.split()[0],
+                     line=line,
+                     over_cost=costs[0],
+                     under_cost=costs[1]))
         except:
             continue
 
@@ -96,4 +99,4 @@ def scrape(url, date, display=False):
     # Close the browser instance
     browser.quit()
 
-    return players
+    return [p for p in players if p.has_props()]
