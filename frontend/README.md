@@ -1,3 +1,9 @@
+# TODO
+- Finish Home page
+- Output main.py
+- Login Functionality
+- User History
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
