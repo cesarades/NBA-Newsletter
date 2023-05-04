@@ -271,8 +271,221 @@ function Chat() {
                             <div class="home-scroll-to-bottom home-h-full home-bg-gray-800">
                                 <div class="home-scroll-to-bottom-2">
                                     <div class="home-flex home-flex-col home-items-center home-text-sm home-bg-gray-800">
-                                        <div class="home-text-gray-100 home-w-full home-lg-max-w-3xl home-md-h-full home-md-flex home-md-flex-col home-px-6">
-                                            
+                                        <div class="home-w-full home-dark-text-gray-100 home-border-b home-dark-border-gray-900-50 home-dak-bg-gray-800">
+                                            <div class="home-flex home-text-base home-md-gap-6 home-lg-max-w-xl home-md-py-6 home-lg-px-0 home-m-auto">
+                                                <div class="home-flex-shrink-0 home-flex home-flex-col home-relative home-items-end home-img-main">
+                                                    <div class="home=relative home-flex">
+                                                    <img alt="User" src="https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxbnQa7uxZDuemB3AFLfVqp9NqIJoxPxnSBp5ves%3Ds96-c&w=48&q=75"
+                                                            decoding="async" class="home-rounded-sm" 
+                                                            style={{ position: 'absolute', inset: '0px', boxSizing: 'border-box', padding: '0px', border: 'none', margin: 'auto', display: 'block', width: '50px', height: '50px', minWidth: '100%', maxWidth: '100%', minHeight: '100%', maxHeight: '100%' }}></img>
+                                                    </div>
+                                                </div>
+                                                <div class="home-relative home-flex home-flex-col home-md-gap-3 home-lg-w-calc">
+                                                    <div class="home-flex home-flex-grow home-flex-col home-gap-3">
+                                                        <div class="home-min-h-20 home-flex home-flex-col home-items-start home-gap-4 home-whitespace-pre-wrap home-break-words">
+                                                            analyze my bets
+                                                        </div>
+                                                    </div>
+                                                    <div class="home-flex home-lg-block"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="home-w-full home-dark-text-gray-100 home-border-b home-dark-border-gray-900-50 home-dark-bg-444654">
+                                            <div class="home-flex home-text-base home-md-gap-6 home-lg-max-w-xl home-md-py-special home-lg-px-0 home-m-auto">
+                                                <div class="home-flex-shrink-0 home-flex home-flex-col home-relative home-items-end">
+                                                    <div class="home-relative home-p1 home-rounded-sm home-h-30px home-w-30px home-text-white home-flex home-items-center home-justify-center">
+                                                    <img class="home-nba-img" src={require('./NBA.png')} alt="NBA" height="50"/>
+                                                    </div>
+                                                </div>
+                                                <div class="home-relative home-flex home-flex-col home-md-gap-3 home-lg-w-calc">
+                                                    <div class="home-flex home-flex-grow home-flex-col home-gap-3">
+                                                        <div class="home-min-h-20 home-flex home-flex-col home-items-start home-gap-4 home-whitespace-pre-wrap home-break-words">
+                                                            <div class="home-markdown home-prose home-w-full home-break-words home-dark-prose-invert">
+                                                                <p>
+                                                                    Scraping Devin Booker
+                                                                </p>
+                                                                <p>
+                                                                    ****************** Devin Booker ******************
+                                                                </p>
+                                                                <p>
+                                                                    Scraping Aaron Gordon
+                                                                </p>
+                                                                <p>
+                                                                    ****************** Aaron Gordon ******************
+                                                                </p>
+                                                                <p>
+                                                                    Scraping Nikola Jokic
+                                                                </p>
+                                                                <p>
+                                                                    ****************** Nikola Jokic ******************
+                                                                </p>
+                                                                <p>
+                                                                    Scraping Chris Paul
+                                                                </p>
+                                                                <p>
+                                                                    ******************* Chris Paul *******************
+                                                                </p>
+                                                                <p>
+                                                                    Scraping Deandre Ayton
+                                                                </p>
+                                                                <p>
+                                                                    ***************** Deandre Ayton *****************
+                                                                </p>
+                                                                <p>
+                                                                    Scraping Kentavious Caldwell Pope
+                                                                </p>
+                                                                <p>
+                                                                    ************ Kentavious Caldwell Pope ************
+                                                                </p>
+                                                                <p>
+                                                                    Scraping Torrey Craig
+                                                                </p>
+                                                                <p>
+                                                                    ****************** Torrey Craig ******************
+                                                                </p>
+                                                                <p>
+                                                                    Scraping Kevin Durant
+                                                                </p>
+                                                                <p>
+                                                                    ****************** Kevin Durant ******************
+                                                                </p>
+                                                                <p>
+                                                                    Scraping Jamal Murray
+                                                                </p>
+                                                                <p>
+                                                                    ****************** Jamal Murray ******************
+                                                                </p>
+                                                                <p>
+                                                                    Scraping Josh Okogie
+                                                                </p>
+                                                                <p>
+                                                                    ******************* Josh Okogie *******************
+                                                                </p>
+                                                                <p>
+                                                                    Scraping Michael Porter
+                                                                </p>
+                                                                <p>
+                                                                    ***************** Michael Porter ******************
+                                                                </p>
+                                                                <p>
+                                                                    Scraping Jeff Green
+                                                                </p>
+                                                                <p>
+                                                                    ******************** Jeff Green ********************
+                                                                </p>
+                                                                <p>
+                                                                    Scraping Christian Braun
+                                                                </p>
+                                                                <p>
+                                                                    ***************** Christian Braun *****************
+                                                                </p>
+                                                                <p>
+                                                                    Scraping Bismack Biyombo
+                                                                </p>
+                                                                <p>
+                                                                    ***************** Bismack Biyombo *****************
+                                                                </p>
+                                                                <p>
+                                                                    Scraping Bruce Brown Jr
+                                                                </p>
+                                                                <p>
+                                                                    ****************** Bruce Brown Jr ******************
+                                                                </p>
+                                                                <p>
+                                                                    You bet on Kevin Durant Over 28.5 Points, Chris Paul Under 8.5 Assists, Nikola Jokic Over 12.5 Rebounds and Devin Booker Over 5.5 Assists.
+                                                                </p>
+                                                                <p>
+                                                                    Kevin Durant had 29 points, 14 rebounds, and 1 assists on 63.0% shooting.
+                                                                </p>
+                                                                <p>
+                                                                    Chris Paul had 11 points, 0 rebounds, and 5 assists on 45.0% shooting.
+                                                                </p>
+                                                                <p>
+                                                                    Nikola Jokic had 24 points, 19 rebounds, and 5 assists on 43.0% shooting.
+                                                                </p>
+                                                                <p>
+                                                                    Devin Booker had 27 points, 4 rebounds, and 8 assists on 53.0% shooting.
+                                                                </p>
+                                                                <p>
+                                                                    Here are the stats for Kevin Durant's teammates if this helps you with your analysis:
+                                                                </p>
+                                                                <p>
+                                                                    Deandre Ayton: 14.0 points, 7.0 assists, and 1.0 rebounds on 7.0 field goals made of 11.0 field goals attempted.
+                                                                </p>
+                                                                <p>
+                                                                    Devin Booker: 27.0 points, 4.0 assists, and 8.0 rebounds on 10.0 field goals made of 19.0 field goals attempted.
+                                                                </p>
+                                                                <p>
+                                                                    Chris Paul: 11.0 points, 0.0 assists, and 5.0 rebounds on 5.0 field goals made of 11.0 field goals attempted.
+                                                                </p>
+                                                                <p>
+                                                                    Torrey Craig: 3.0 points, 4.0 assists, and 1.0 rebounds on 1.0 field goals made of 3.0 field goals attempted.
+                                                                </p>
+                                                                <p>
+                                                                    Kevin Durant averaged 29.1 points, 6.7 rebounds, and 5.0 assists so far this season. 
+                                                                </p>
+                                                                <p>
+                                                                    Here are the stats for Chris Paul's teammates if this helps you with your analysis:
+                                                                </p>
+                                                                <p>
+                                                                    Kevin Durant: 29.0 points, 14.0 assists, and 1.0 rebounds on 12.0 field goals made of 19.0 field goals attempted.
+                                                                </p>
+                                                                <p>
+                                                                    Deandre Ayton: 14.0 points, 7.0 assists, and 1.0 rebounds on 7.0 field goals made of 11.0 field goals attempted.
+                                                                </p>
+                                                                <p>
+                                                                    Devin Booker: 27.0 points, 4.0 assists, and 8.0 rebounds on 10.0 field goals made of 19.0 field goals attempted.
+                                                                </p>
+                                                                <p>
+                                                                    Torrey Craig: 3.0 points, 4.0 assists, and 1.0 rebounds on 1.0 field goals made of 3.0 field goals attempted.
+                                                                </p>
+                                                                <p>
+                                                                    Chris Paul averaged 13.9 points, 4.3 rebounds, and 8.9 assists so far this season. 
+                                                                </p>
+                                                                <p>
+                                                                    Here are the stats for Nikola Jokic's teammates if this helps you with your analysis:
+                                                                </p>
+                                                                <p>
+                                                                    Michael Porter Jr.: 11.0 points, 3.0 assists, and 2.0 rebounds on 5.0 field goals made of 9.0 field goals attempted.
+                                                                </p>
+                                                                <p>
+                                                                    Aaron Gordon: 23.0 points, 6.0 assists, and 0.0 rebounds on 9.0 field goals made of 13.0 field goals attempted.
+                                                                </p>
+                                                                <p>
+                                                                    Kentavious Caldwell-Pope: 10.0 points, 2.0 assists, and 1.0 rebounds on 3.0 field goals made of 8.0 field goals attempted.
+                                                                </p>
+                                                                <p>
+                                                                    Jamal Murray: 34.0 points, 5.0 assists, and 9.0 rebounds on 13.0 field goals made of 24.0 field goals attempted.
+                                                                </p>
+                                                                <p>
+                                                                    Bruce Brown: 14.0 points, 2.0 assists, and 3.0 rebounds on 7.0 field goals made of 11.0 field goals attempted.
+                                                                </p>
+                                                                <p>
+                                                                    Nikola Jokic averaged 24.5 points, 11.8 rebounds, and 9.8 assists so far this season. 
+                                                                </p>
+                                                                <p>
+                                                                    Here are the stats for Devin Booker's teammates if this helps you with your analysis:
+                                                                </p>
+                                                                <p>
+                                                                    Kevin Durant: 29.0 points, 14.0 assists, and 1.0 rebounds on 12.0 field goals made of 19.0 field goals attempted.
+                                                                </p>
+                                                                <p>
+                                                                    Deandre Ayton: 14.0 points, 7.0 assists, and 1.0 rebounds on 7.0 field goals made of 11.0 field goals attempted.
+                                                                </p>
+                                                                <p>
+                                                                    Chris Paul: 11.0 points, 0.0 assists, and 5.0 rebounds on 5.0 field goals made of 11.0 field goals attempted.
+                                                                </p>
+                                                                <p>
+                                                                    Torrey Craig: 3.0 points, 4.0 assists, and 1.0 rebounds on 1.0 field goals made of 3.0 field goals attempted.
+                                                                </p>
+                                                                <p>
+                                                                    Devin Booker averaged 27.8 points, 4.5 rebounds, and 5.5 assists so far this season.
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                         <div class="home-w-full home-md-h-48 home-flex-shrink-0"></div>
                                     </div>
