@@ -85,7 +85,7 @@ bets_sentence = "I bet on "
 for player in bets:
     for bet in bets[player]:
         val = bet_lines[player][bet[1]]
-        temp = player + " " + bet[2] + " " + val[2:] + " " + bet[1] + ". "
+        temp = player + " " + bet[2] + " " + str(val) + " " + bet[1] + ". "
         prompt += bets_sentence + temp
 
 # Now start getting the actual stats of the players we bet on

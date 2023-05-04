@@ -52,9 +52,9 @@ def scrape_player_props(player_href, display=False):
             ]
 
             # Add the prop to the player
-            player.add_prop(
-                Prop(pname.split()[0], (lines[0], costs[0]),
-                     (lines[1], costs[1])))
+            prop = Prop(pname.split()[0], float(lines[0][2:]), costs[0],
+                     (costs[1]))
+            player.add_prop(prop)
         except:
             continue
 

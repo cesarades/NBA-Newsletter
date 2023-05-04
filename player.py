@@ -17,11 +17,11 @@ class Player:
 
 class Prop:
 
-    def __init__(self, name, line, over_cost, under_cost):
+    def __init__(self, name, line, over_cost, under_cost=0):
         self.name = name
-        self.line = float(line)
-        self.over_cost = float(over_cost)
-        self.under_cost = float(under_cost)
+        self.over_line = (line)
+        self.over_cost = (over_cost)
+        self.under_cost = (under_cost)
 
     def __str__(self):
         return f"{self.name}:\t{self.line} (O {self.over_cost}) (U {self.under_cost})"
