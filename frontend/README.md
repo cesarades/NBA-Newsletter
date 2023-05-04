@@ -1,5 +1,4 @@
 # TODO
-- Finish Home page
 - Output main.py
 - Login Functionality
 - User History
