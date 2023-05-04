@@ -5,6 +5,7 @@ import Login from './Login'
 import SignUp from './SignUp'
 import SignIn from './SignIn'
 import Home from './Home'
+import Chat from './Chat'
 import { createBrowserRouter, RouterProvider} from 'react-router-dom'
 
 const router = createBrowserRouter([
@@ -26,7 +27,11 @@ const router = createBrowserRouter([
   },
   {
     path: "/home",
-    element: <Home/>
+    element: <Home/>,
+  },
+  {
+    path: "/chat",
+    element: <Chat/>,
   }
 ]);
 
