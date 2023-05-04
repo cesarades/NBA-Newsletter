@@ -265,79 +265,117 @@ function Home() {
                         </div>
                     </div>
                 </div>
-                Check here
-                <div class="home-flex home-h-full home-max-w-full home-flex-q home-flex-col home-overflow-hidden">
+                <div class="home-flex home-h-full home-max-w-full home-flex-1 home-flex-col home-overflow-hidden">
                     <main class="home-relative home-h-full home-w-full home-transition-width home-flex home-flex-col home-overflow-hidden home-items-streth home-flex-1">
                         <div class="home-flex-1 home-overflow-hidden">
                             <div class="home-scroll-to-bottom home-h-full home-bg-gray-800">
                                 <div class="home-scroll-to-bottom-2">
                                     <div class="home-flex home-flex-col home-items-center home-text-sm home-bg-gray-800">
-                                        <div class="home-text-gray-800 home-w-full home-md-max-2 home-lg-max-3 home-m-h-full home-m-flex home-m-flex-col home-px-6 home-text-gray-100">
-                                            <h1 class="home-text-4xl home-font-semibold home-text-center home-mt-6 home-sm-m home-ml-auto home-mr-auto home-mb-10 home s-m flex home-gap-2 home-items center home-justify-center">NBANewsletter</h1>
-                                            <div class="home-m-flex home-items-start home-text-center home-gap-3-5">
-                                                <div class="home-flex home-flex-col home-mb-8 home-m-mb-auto home-gap-3-5 home-flex-1">
+                                        <div class="home-text-gray-100 home-w-full home-lg-max-w-3xl home-md-h-full home-md-flex home-md-flex-col home-px-6">
+                                            <img class="home-mt-20vh home-ml-auto home-mr-auto home-items-center home-justify-center" src={require('./NBA.png')} alt="NBA" height="80" width="35"/>
+                                            <h1 class="home-text-4xl home-font-semibold home-text-center home-mt-20vh home-ml-auto home-mr-auto home-mb-16 home-flex home-gap-2 home-items-center home-justify-center">NBANewsletter</h1>
+                                            <div class="home-md-flex home-items-start home-text-center home-gap-3-5">
+                                                <div class="home-flex home-flex-col home-mb-auto home-gap-3-5 home-flex-1">
                                                     <h2 class="home-flex home-gap-3 home-items-center home-m-auto home-text-lg home-font-normal home-md-flex-col home-md-gap-2">
-                                                        <svg>
-
+                                                        <svg stroke="currentColor" fill="none" stroke-width="1.5" viewBox="0 0 24 24" stroke-linecap="round" class="home-h-6 home-w-6"
+                                                        height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                            <circle cx="12" cy="12" r="5"></circle>
+                                                            <line x1="12" y1="1" x2="12" y2="3"></line>
+                                                            <line x1="12" y1="21" x2="12" y2="23"></line>
+                                                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                                            <line x1="1" y1="12" x2="3" y2="12"></line>
+                                                            <line x1="21" y1="12" x2="23" y2="12"></line>
+                                                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
                                                         </svg>
+                                                        Examples
                                                     </h2>
-                                                    <ul class="home-flex home-flex-col home-gap-3-5 home-w-full home-sm-max-w-md home-m-auto">
-                                                        <li>
-
+                                                    <ul style={{padding: 0}} class="home-flex home-flex-col home-gap-3-5 home-w-full home-max-w-md home-m-auto">
+                                                        <li class="home-bg-white-5 home-p-3 home-rounded-md">
+                                                            "What was Curry's shooting percentage last night?""
                                                         </li>
-                                                        <li>
-
+                                                        <li class="home-bg-white-5 home-p-3 home-rounded-md">
+                                                            "Show me my last 30 bets and how they performed"
                                                         </li>
-                                                        <li>
-
+                                                        <li class="home-bg-white-5 home-p-3 home-rounded-md">
+                                                            "How many points does Lebron average against the Warriors?"
                                                         </li>
                                                     </ul>
                                                 </div>
-                                                <div class="home-flex home-flex-col home-mb-8 home-m-mb-auto home-gap-3-5 home-flex-1">
+                                                <div class="home-flex home-flex-col home-m-mb-auto home-gap-3-5 home-flex-1">
                                                     <h2 class="home-flex home-gap-3 home-items-center home-m-auto home-text-lg home-font-normal home-md-flex-col home-md-gap-2">
-                                                        <svg>
-                                                            
+                                                        <svg stroke="currentColor" fill="none" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true" class="home-h-6 home-w-6"
+                                                        height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"></path>
                                                         </svg>
+                                                        Capabilities
                                                     </h2>
-                                                    <ul class="home-flex home-flex-col home-gap-3-5 home-w-full home-sm-max-w-md home-m-auto">
-                                                        <li>
-
+                                                    <ul style={{padding: 0}} class="home-flex home-flex-col home-gap-3-5 home-w-full home-max-w-md home-m-auto">
+                                                        <li class="home-bg-white-5 home-p-3 home-rounded-md">
+                                                            Allows user to ask about any game, past or present
                                                         </li>
-                                                        <li>
-
+                                                        <li class="home-bg-white-5 home-p-3 home-rounded-md">
+                                                            Leverages current statistics against historical averages
                                                         </li>
-                                                        <li>
-
+                                                        <li class="home-bg-white-5 home-p-3 home-rounded-md">
+                                                            Trained to understand both if and why user bets hit or missed
                                                         </li>
                                                     </ul>
                                                 </div>
-                                                <div class="home-flex home-flex-col home-mb-8 home-m-mb-auto home-gap-3-5 home-flex-1">
+                                                <div class="home-flex home-flex-col home-m-mb-auto home-gap-3-5 home-flex-1">
                                                     <h2 class="home-flex home-gap-3 home-items-center home-m-auto home-text-lg home-font-normal home-md-flex-col home-md-gap-2">
-                                                        <svg>
-                                                            
+                                                    <svg stroke="currentColor" fill="none" stroke-width="1.5" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="home-h-6 home-w-6"
+                                                        height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+                                                            <line x1="12" y1="9" x2="12" y2="13"></line>
+                                                            <line x1="12" y1="17" x2="12.01" y2="17"></line>
                                                         </svg>
+                                                        Limitations
                                                     </h2>
-                                                    <ul class="home-flex home-flex-col home-gap-3-5 home-w-full home-sm-max-w-md home-m-auto">
-                                                        <li>
-
+                                                    <ul style={{padding: 0}} class="home-flex home-flex-col home-gap-3-5 home-w-full home-max-w-md home-m-auto">
+                                                        <li class="home-bg-white-5 home-p-3 home-rounded-md">
+                                                            For now, user must input bets through csv
                                                         </li>
-                                                        <li>
-
+                                                        <li class="home-bg-white-5 home-p-3 home-rounded-md">
+                                                            May occasionally produce incorrect or biased advice
                                                         </li>
-                                                        <li>
-
+                                                        <li class="home-bg-white-5 home-p-3 home-rounded-md">
+                                                            Unable to process bets made offline
                                                         </li>
                                                     </ul>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="home-w-full home-h-32 home-md-h-48 home-flex-shrink-0"></div>
+                                        <div class="home-w-full home-md-h-48 home-flex-shrink-0"></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="absolute bottom-0">
-
+                        <div class="home-absolute home-bottom-0 home-left-0 home-w-full home-md-border-t-0 home-md-dark-border-transparent home-dark-md-bg-vert-dark-gradient home-pt-2">
+                            <form class="home-flex home-flex-row home-gap-3 home-lg-mx-auto home-lg-max-w-2xl">
+                                <div class="home-relative home-flex home-h-full home-flex-1 home-items-stretch home-md-flex-col">
+                                    <div>
+                                        <div class="home-h-full home-flex home-md-w-full home-md-m-auto home-md-mb-2 home-md-gap-2 home-justify-center"> 
+                                        </div>
+                                    </div>
+                                    <div class="home-flex home-flex-col home-w-full home-flex-grow home-md-py-3 home-md-pl-4 home-relative home-border home-dark-border-gray-900-50 home-dark-text-white home-dark-bg-gray-700 home-rounded-md home-dark-shadow-0-0-15">
+                                        <textarea style={{ maxHeight: '200px', height: '24px', overflowY: 'hidden' }} rows="1"
+                                        placeholder="Send a message" class="home-m-0 home-w-full home-resize-none home-border-0 home-p-0 home-pr-7 home-focus-visible-ring-0 home-dark-bg-transparent home-md-pl-0"></textarea>
+                                        <button class="home-absolute home-p-1 home-rounded-md home-text-gray-500 home-md-bottom-2-5 home-hover-text-gray-400 home-hover-bg-gray-900 home-md-right-2">
+                                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="home-h-4 home-w-4 home-mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                <line x1="22" y1="2" x2="11" y2="13"></line>
+                                                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="home-text-center home-text-xs home-dark-text-gray-300 home-md-px-4 home-md-pt-3 home-md-pb-6">
+                                <span>
+                                    NBANewsletter is not liable for any bets you place as a result of using our application
+                                </span>
+                            </div>
                         </div>
                     </main>
                 </div>
