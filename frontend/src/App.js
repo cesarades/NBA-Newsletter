@@ -1,6 +1,13 @@
 import './styles/App.css';
+import { db } from './firebase_setup/firebase';
+import { onValue, ref } from 'firebase/database';
+import React, {useEffect, useState } from "react";
 
 function App() {
+
+
+  
+
   return (
     <html lang="en" dir="ltr">
     <head>
