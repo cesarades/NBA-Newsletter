@@ -1,6 +1,44 @@
 import './styles/Auth.css';
+import { db } from './firebase_setup/firebase';
+import { useEffect, useState, useRef } from 'react';
+import { get, getDatabase,onValue,ref as FireRef,set } from "firebase/database";
+import {getDataFromPath} from './firebase_setup/firebase_helpers'
+
 
 function Login() {
+
+  const db = useRef()
+
+ // test read
+  useEffect(() => {
+    db.current = getDatabase();
+    const usersRef = FireRef(db.current)
+      onValue(usersRef,(snapshot)=> {
+        console.log("output: ", snapshot.val())
+    })
+  });
+
+  // test write
+  useEffect(() => {
+    db.current = getDatabase();
+    const value = "Test post"
+    const path = "path/testposts"
+
+    set(FireRef(db.current, path), {
+      value: value
+    });
+
+  });
+
+//  useEffect(() => {
+//    const query = ref(db);
+//    return onValue(query, (snapshot) => {
+//      const data = snapshot.val();
+//
+//      console.log("data: ", data)
+//    });
+//  }, []);
+
   return (
     <html class="layout" lang="en" dir="ltr">
     <head>

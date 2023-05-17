@@ -87,7 +87,7 @@ html, body {
     }
 
     .home-dark-md-bg-vert-dark-gradient {
-        background-image: linear-gradient(180deg,rgba(53,55,64,0), rgb(26, 26, 32) 58.85%);
+        background-image: linear-gradient(180deg,rgba(53,55,64,0), rgb(21, 21, 26) 58.85%);
     }
 
     .home-lg-mx-auto {
@@ -142,6 +142,41 @@ html, body {
 
     .home-md-right-2 {
         right: 0.5rem;
+    }
+
+    .home-md-gap-6 {
+        gap: 1.5rem;
+    }
+
+    .home-lg-max-w-xl {
+        max-width: 36rem;
+    }
+
+    .home-md-py-6 {
+        padding-bottom: 1.5rem;
+        padding-top: 1.5rem;
+    }
+
+    .home-lg-px-0 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .home-md-gap-3 {
+        gap: 0.75rem;
+    }
+
+    .home-lg-w-calc {
+        width: calc(100% - 115px);
+    }
+
+    .home-lg-block {
+        display: block;
+    }
+
+    .home-md-py-special {
+        padding-bottom: 8rem;
+        padding-top: 1.5rem;
     }
 }
 
@@ -421,31 +456,6 @@ ol {
     --tw-gradient-to: #2A2B32;
 }
 
-::-webkit-scrollbar {
-    height: 1rem;
-    width: 0.5rem;
-
-}
-
-::-webkit-scrollbar-thumb {
-    border-radius: 9999px;
-    border-width: 1px;
-}
-
-.sidebar:hover::-webkit-scrollbar-thumb {
-    background-color: rgb(75, 75, 97);
-}
-
-.sidebar:hover::-webkit-scrollbar-thumb:hover {
-    background-color: rgb(210,210,220);
-    border-color: rgb(255,255,255);
-}
-
-::-webkit-scrollbar-track {
-    background-color: transparent;
-    border-radius: 9999px;
-}
-
 .home-border-t {
     border-top-width: 1px;
     border-left: none;
@@ -721,4 +731,142 @@ textarea:focus {
 .home-hover-bg-gray-900:hover {
     background-color: rgb(17 24 39);
     cursor: pointer;
+}
+
+.home-dark-text-gray-100 {
+    color: rgb(236, 236, 241);
+}
+
+.home-border-b {
+    border-bottom-width: 1px;
+}
+
+.home-dark-bg-gray-800 {
+    background-color: rgb(52,53,65);
+}
+
+.home-dark-bg-444654 {
+    background-color: rgb(36, 36, 44);
+}
+
+.home-text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.home-min-h-20 {
+    min-height: 20px;
+}
+
+.home-gap-4 {
+    gap: 1rem;
+}
+
+.home-whitespace-pre-wrap {
+    white-space: pre-wrap;
+}
+
+.home-break-words {
+    word-wrap: break-word;
+}
+
+.home-items-end {
+    align-items: flex-end;
+}
+
+.home-img-main {
+    width: 36px;
+    height: 36px;
+}
+
+.home-h-30px {
+    height: 30px;
+}
+
+.home-w-30px {
+    width: 30px;
+}
+
+.home-markdown {
+    max-width: none;
+}
+
+.home-prose {
+    --tw-prose-invert-headings: #fff;
+    --tw-prose-invert-lead: #9ca3af;
+    --tw-prose-invert-links: #fff;
+    --tw-prose-invert-bold: #fff;
+    --tw-prose-invert-counters: #9ca3af;
+    --tw-prose-invert-bullets: #4b5563;
+    --tw-prose-invert-hr: #374151;
+    --tw-prose-invert-quotes: #f3f4f6;
+    --tw-prose-invert-quote-borders: #374151;
+    --tw-prose-invert-captions: #9ca3af;
+    --tw-prose-invert-code: #fff;
+    --tw-prose-invert-pre-code: #d1d5db;
+    --tw-prose-invert-pre-bg: rgba(0,0,0,.5);
+    --tw-prose-invert-th-borders: #4b5563;
+    --tw-prose-invert-td-borders: #374151;
+    font-size: 1rem;
+    line-height: 1.75;
+    color: var(--tw-prose-body);
+}
+
+.home-dark-prose-invert {
+    --tw-prose-body: var(--tw-prose-invert-body);
+    --tw-prose-headings: var(--tw-prose-invert-headings);
+    --tw-prose-lead: var(--tw-prose-invert-lead);
+    --tw-prose-links: var(--tw-prose-invert-links);
+    --tw-prose-bold: var(--tw-prose-invert-bold);
+    --tw-prose-counters: var(--tw-prose-invert-counters);
+    --tw-prose-bullets: var(--tw-prose-invert-bullets);
+    --tw-prose-hr: var(--tw-prose-invert-hr);
+    --tw-prose-quotes: var(--tw-prose-invert-quotes);
+    --tw-prose-quote-borders: var(--tw-prose-invert-quote-borders);
+    --tw-prose-captions: var(--tw-prose-invert-captions);
+    --tw-prose-code: var(--tw-prose-invert-code);
+    --tw-prose-pre-code: var(--tw-prose-invert-pre-code);
+    --tw-prose-pre-bg: var(--tw-prose-invert-pre-bg);
+    --tw-prose-th-borders: var(--tw-prose-invert-th-borders);
+    --tw-prose-td-borders: var(--tw-prose-invert-td-borders);
+}
+
+.home-whitespace-pre-line {
+    white-space: pre-line;
+}
+
+.home-nba-img {
+    margin-top: 40px;
+}
+
+::-webkit-scrollbar {
+    height: 1rem;
+    width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 9999px;
+    border-width: 1px;
+    background-color: rgb(75, 75, 97);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(137, 137, 164)
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+.sidebar:hover::-webkit-scrollbar-thumb {
+    background-color: rgb(75, 75, 97);
+}
+
+.sidebar:hover::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(137, 137, 164)
 }
