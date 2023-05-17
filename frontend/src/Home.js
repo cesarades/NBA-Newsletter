@@ -296,7 +296,7 @@ function Home() {
                                                     </h2>
                                                     <ul style={{padding: 0}} class="home-flex home-flex-col home-gap-3-5 home-w-full home-max-w-md home-m-auto">
                                                         <li class="home-bg-white-5 home-p-3 home-rounded-md">
-                                                            "What was Curry's shooting percentage last night?""
+                                                            "What was Curry's shooting percentage last night?"
                                                         </li>
                                                         <li class="home-bg-white-5 home-p-3 home-rounded-md">
                                                             "Show me my last 30 bets and how they performed"
